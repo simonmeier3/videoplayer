@@ -45,3 +45,7 @@ input[type="image"]
     margin-left:420px;
     width:20px;
 }
+#title
+{
+    font-family: Tahoma;
+}

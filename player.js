@@ -6,11 +6,11 @@ function startplayer()
     player = document.getElementById('video_player');
     player.controls = false;
 }
-function play_vid()
+function play_video()
 {
     player.play();
 }
-function pause_vid()
+function pause_video()
 {
     player.pause();
 }
@@ -20,10 +20,10 @@ function speed_1(){
 function speed_2(){
     player.playbackRate = 2;
 }
-function mute_vid(){
+function mute_video(){
     player.mute;
 }
-function change_vol()
+function change_volume()
 {
     player.volume=document.getElementById("change_vol").value;
 }
