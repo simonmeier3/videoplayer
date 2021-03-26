@@ -1,0 +1,47 @@
+body
+{
+    width:100%;
+    margin:0 auto;
+    padding:0px;
+    font-family:helvetica;
+    background-color: #EAE7DC;
+}
+#wrapper
+{
+    text-align:center;
+    margin:0 auto;
+    padding:0px;
+    width:995px;
+}
+#player_wrapper
+{
+    position:relative;
+    width:80%;
+    margin: 20% auto auto;
+}
+#video_player
+{
+    width: 100%;
+}
+#player_controls
+{
+    top:98%;
+    position:absolute;
+    background-color: #8E8D8A;
+    width: 100%;
+    padding:5px;
+    box-sizing:border-box;
+}
+input[type="image"]
+{
+    float:left;
+    height:20px;
+    margin-left:2px;
+    margin-right:5px;
+    margin-top:2px;
+}
+#vol_img
+{
+    margin-left:420px;
+    width:20px;
+}
